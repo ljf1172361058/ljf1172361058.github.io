@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Archives: 2016 | 我的个人Blog</title>
+  <title>Archives: 2016 | 红尘君的个人Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="我的个人Blog">
+<meta property="og:title" content="红尘君的个人Blog">
 <meta property="og:url" content="http://yoursite.com/archives/2016/index.html">
-<meta property="og:site_name" content="我的个人Blog">
+<meta property="og:site_name" content="红尘君的个人Blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的个人Blog">
+<meta name="twitter:title" content="红尘君的个人Blog">
   
-    <link rel="alternative" href="/atom.xml" title="我的个人Blog" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="红尘君的个人Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="//favicon.png">
@@ -27,18 +27,255 @@
       <div class="overlay"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img src="http://www.0102003.com/images/favicon.png" class="js-avatar">
-			
-		</a>
+	<style type="text/css">
+/*头像效果-start*/
+
+.ih-item.circle.effect {
+    margin: 0 auto;
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    perspective: 900px;
+}
+.ih-item.circle.effect .img {
+    z-index: 11;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ih-item.circle.effect .info {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.ih-item.circle.effect .info .info-back {
+    opacity: 1;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+}
+
+.ih-item.circle.effect .info h2 {
+    color: #fff;    
+    position: relative;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 40px;
+    text-shadow: 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ih-item.circle.effect .info p {
+    color: #bbb;
+    padding: 50px 0px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ih-item.circle.effect.bottom_to_top .img {
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.ih-item.circle.effect.bottom_to_top a:hover .img {
+    -webkit-transform: rotate3d(1, 0, 0, 180deg);
+    -moz-transform: rotate3d(1, 0, 0, 180deg);
+    -ms-transform: rotate3d(1, 0, 0, 180deg);
+    -o-transform: rotate3d(1, 0, 0, 180deg);
+    transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.ih-item.circle.effect.top_to_bottom .img {
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+.ih-item.circle.effect.top_to_bottom a:hover .img {
+    -webkit-transform: rotate3d(1, 0, 0, -180deg);
+    -moz-transform: rotate3d(1, 0, 0, -180deg);
+    -ms-transform: rotate3d(1, 0, 0, -180deg);
+    -o-transform: rotate3d(1, 0, 0, -180deg);
+    transform: rotate3d(1, 0, 0, -180deg);
+}
+
+.ih-item.circle.effect.left_to_right .img {
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -o-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+
+.ih-item.circle.effect.left_to_right a:hover .img {
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    -moz-transform: rotate3d(0, 1, 0, 180deg);
+    -ms-transform: rotate3d(0, 1, 0, 180deg);
+    -o-transform: rotate3d(0, 1, 0, 180deg);
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.ih-item.circle.effect.right_to_left .img {
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    -ms-transform-origin: 0% 50%;
+    -o-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+
+.ih-item.circle.effect.right_to_left a:hover .img {
+    -webkit-transform: rotate3d(0, 1, 0, -180deg);
+    -moz-transform: rotate3d(0, 1, 0, -180deg);
+    -ms-transform: rotate3d(0, 1, 0, -180deg);
+    -o-transform: rotate3d(0, 1, 0, -180deg);
+    transform: rotate3d(0, 1, 0, -180deg);
+}
+
+.ih-item a {
+    color: #333;
+}
+
+.ih-item a:hover {
+    text-decoration: none;
+}
+
+.ih-item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ih-item.circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.ih-item.circle .img {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+@media all and (max-width: 780px) {
+  .ih-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  .ih-item.circle.effect .info h2 {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 15px;
+    padding-top: 35px;
+    height: 20px;
+}
+
+.ih-item.circle.effect .info p {
+    color: #bbb;
+    padding-top: 0px
+    font-style: italic;
+    margin: 0 auto;
+    font-size: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ih-item.circle.effect {
+    margin: 0 auto;
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    perspective: 900px;
+}
+  .ih-item.circle {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+
+  .ih-item.circle .img {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+
+  }
+}
+
+.ih-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*外圈圆环*/
+    /*box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);*/
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.ih-item.circle .img img {
+    border-radius: 50%;
+}
+
+.ih-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*头像效果-end*/
+</style>
+ <!-- 头像效果-start -->
+        <div class="ih-item circle effect right_to_left">            
+            <a href="/" title="前往 红尘君 的主页" class="blog-button">
+                <div class="img">
+                	
+					<img src="http://www.0102003.com/images/favicon.png" class="js-avatar">
+					
+                </div>
+                <div class="info">
+                    <div class="info-back">
+                        <h2>╮(╯▽╰)╭</h2>
+                        <p>Android|PHP|Python</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 头像效果-end -->
 
 		<hgroup>
-		  <h1 class="header-author"><a href="/">lzh</a></h1>
+		  <h1 class="header-author"><a href="/">红尘君</a></h1>
 		</hgroup>
 
 		
-		<p class="header-subtitle">我的个人Blog</p>
+		<p class="header-subtitle">红尘君的个人Blog</p>
 		
 
 		<nav class="header-menu">
@@ -46,9 +283,9 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/">随笔</a></li>
 	        
-				<li><a href="/tags/旧事/">旧事</a></li>
+				<li><a href="/">旧事</a></li>
 	        
 				<li><a href="/tags/小眼神/">小眼神</a></li>
 	        
@@ -99,7 +336,7 @@
       <nav id="mobile-nav">
   	<div class="overlay">
   		<div class="slider-trigger"><i class="icon-list"></i></div>
-  		<h1 class="header-author js-mobile-header hide">lzh</h1>
+  		<h1 class="header-author js-mobile-header hide">红尘君</h1>
   	</div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
@@ -109,19 +346,19 @@
 				
 			</div>
 			<hgroup>
-			  <h1 class="header-author">lzh</h1>
+			  <h1 class="header-author">红尘君</h1>
 			</hgroup>
 			
-			<p class="header-subtitle">我的个人Blog</p>
+			<p class="header-subtitle">红尘君的个人Blog</p>
 			
 			<nav class="header-menu">
 				<ul>
 				
 					<li><a href="/">主页</a></li>
 		        
-					<li><a href="/tags/随笔/">随笔</a></li>
+					<li><a href="/">随笔</a></li>
 		        
-					<li><a href="/tags/旧事/">旧事</a></li>
+					<li><a href="/">旧事</a></li>
 		        
 					<li><a href="/tags/小眼神/">小眼神</a></li>
 		        
@@ -162,14 +399,14 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/2016/09/23/Hello-World/" class="archive-article-date">
-  	<time datetime="2016-09-23T07:08:22.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-23</time>
+	      	<a href="/2016/09/26/10分钟让你使用Hexo+GitHub搭建个人博客/" class="archive-article-date">
+  	<time datetime="2016-09-26T02:42:21.927Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-26</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/23/Hello-World/">Hello World</a>
+      <a class="archive-article-title" href="/2016/09/26/10分钟让你使用Hexo+GitHub搭建个人博客/">10分钟让你使用Hexo+GitHub搭建个人博客</a>
     </h1>
   
 
@@ -177,7 +414,7 @@
           
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/旧事/">旧事</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 	</div>
 
           
@@ -252,38 +489,6 @@
   </div>
 </article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/09/23/你好-世界/" class="archive-article-date">
-  	<time datetime="2016-09-23T06:11:19.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/23/你好-世界/">你好,世界</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
   
     </div></section>
   
@@ -296,7 +501,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2016 lzh
+    		&copy; 2016 红尘君
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -372,7 +577,7 @@ MathJax.Hub.Queue(function() {
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/乱七八糟/" style="font-size: 10px;">乱七八糟</a> <a href="/tags/小眼神/" style="font-size: 10px;">小眼神</a> <a href="/tags/旧事/" style="font-size: 10px;">旧事</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+    				<a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/乱七八糟/" style="font-size: 10px;">乱七八糟</a> <a href="/tags/小眼神/" style="font-size: 10px;">小眼神</a>
     			</div>
     	</section>
     
@@ -398,7 +603,7 @@ MathJax.Hub.Queue(function() {
     
     	<section class="tools-section tools-section-me">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">我是谁?&lt;br/&gt;我从哪里来，我到哪里去？&lt;br/&gt;我就是我，是颜色不一样的吃货…</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">我是谁?&lt;br/&gt;我就是红尘君？&lt;br/&gt;红尘君就是我，开坏N辆车的老司机…</div>
   	  	
     	</section>
     
